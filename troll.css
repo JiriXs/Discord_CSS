@@ -1,0 +1,95 @@
+/*   MINECRAFT   */
+
+.title_c38106 {
+  display: none;
+}
+
+.title_f75fb0 {
+  padding: 0px !important;
+  /* scale: 0.9; */
+  padding-left: 12px !important;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  background: transparent !important;
+  height: var(--custom-app-top-bar-height) !important;
+  min-height: 0px;
+  border: none !important;
+  width: calc(100vw);
+}
+
+.followButton_f75fb0,
+.topicClickTarget__6ec1a {
+  -webkit-app-region: no-drag !important;
+}
+
+.base_c48ade:has(.bar_c38106[data-windows="true"]) .title_f75fb0 {
+  width: calc(100vw - 240px)!important;
+}
+
+.children__9293f::after {
+  background: linear-gradient(to right, transparent 0, var(--bg-base-tertiary) 100%)!important;
+}
+.topic__6ec1a {
+  flex: none;
+}
+
+
+
+
+*,
+*::before,
+*::after {
+    border-radius: 0 !important;
+}
+
+.svg_cc5dd2 > mask,
+.svg__44b0c > rect,
+.svg__44b0c > circle,
+.svg__44b0c rect[mask='url(#:rhi:)'],
+.avatar__20a53 .status_a423bd {
+    display: none;
+}
+
+.mask__68edb > foreignObject,
+.svg__44b0c > foreignObject,
+.svg__2338f > foreignObject {
+    mask: none;
+}
+
+.wrapper__44b0c:has(rect)::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 8px;
+    width: 8px;
+    bottom: -4px;
+    right: -4px;
+    border: 2px solid var(--background-base-lower);
+}
+#app-mount .wrapper__44b0c:has(rect[fill='#40a258'])::after {
+    background: #40a258 !important;
+}
+#app-mount .wrapper__44b0c:has(rect[fill='#d83a41'])::after {
+    background: #d83a41 !important;
+}
+#app-mount .wrapper__44b0c:has(rect[fill='#cc954c'])::after {
+    background: #cc954c !important;
+}
+#app-mount .wrapper__44b0c:has(rect[fill='#82838b'])::after {
+    background: #82838b !important;
+}
+#app-mount .wrapper__44b0c:has(rect[fill='#9147ff'])::after {
+    background: #9147ff !important;
+}
+
+.lowerBadge_cc5dd2 {
+    border: 2px solid var(--background-base-lower);
+    bottom: -4px;
+    right: -4px;
+}
+.upperBadge_cc5dd2 {
+    border: 2px solid var(--background-base-lower);
+    top: -4px;
+    right: -4px;
+}
